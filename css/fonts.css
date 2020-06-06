@@ -1,0 +1,24 @@
+/*
+	Reference: tutorial video from Paul Brokenshire for IAT339
+*/
+
+@font-face {
+	font-family: 'Roboto';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-weight: lighter;
+	font-style: normal;
+	src: url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
+}

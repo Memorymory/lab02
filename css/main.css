@@ -1,0 +1,106 @@
+/* This CSS style is specific for 'Style Guide' site. */
+
+.content-block {
+	margin-bottom: 2rem;
+}
+
+section, section.container {
+	padding-bottom: 1.25rem;
+	border-bottom: 4px solid #ccc;
+	margin-bottom: 2rem;
+}
+
+.example, .grid-structure {
+	padding-top: 1rem;
+}
+
+.grid-structure div:nth-of-type(even) {
+	background-color: #ccc;
+}
+
+.grid-structure div:nth-of-type(odd) {
+	background-color: #73777f;
+}
+
+code {
+	display: inline-block;
+	padding: 0.75rem 0.5rem;
+	color: #333;
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+code.html {
+	background-color: #efefef;
+}
+
+code.css {
+	background-color: #999;
+	color: #efefef;
+}
+
+.color-box {
+	color: white;
+	padding: 1rem;
+	border: 2px solid white;
+}
+
+.color-box p {
+	padding-top: 0.5rem;
+}
+
+.light-grey {
+	background-color: #ccc;
+}
+
+.normal-grey {
+	background-color: #73777f;
+}
+
+.dark-grey {
+	background-color: #39404c;
+}
+
+.black {
+	background-color: #081428;
+}
+
+/* Website grid structure */
+.block-40 {
+	min-height: 40px;
+}
+.block-80 {
+	min-height: 80px;
+}
+.block-180 {
+	min-height: 180px;
+}
+.block-300 {
+	min-height: 300px;
+}
+.block-400 {
+	min-height: 400px;
+}
+.block-500 {
+	min-height: 500px;
+}
+/* 	
+	Selects all elements with a class name starting with "block" 
+	Reference: 'CSS Selectors' at https://www.w3schools.com/cssref/css_selectors.asp
+*/
+[class|="block"]{
+	border: 1px solid white;
+	padding: 1rem;
+}
+
+.mockup-web {
+	border: 1px solid #081428;
+	max-width: 65%;
+}
+.mockup-mobile {
+	border: 1px solid #081428;
+	max-width: 25%;
+}
+
+
+
