@@ -128,9 +128,9 @@ a.link_with_underline:focus {
 
 .button-1 {
 	font-weight: bold;
-	background-color: #081428;
+	background-color: #000000;
 	color: white;
-	border: 2px solid #081428;
+	border: 2px solid #000000;
 	transition: all 0.5s;
 }
 
@@ -139,25 +139,26 @@ a.link_with_underline:focus {
   	display: inline-block;
   	position: relative;
   	transition: 0.5s;
-
 }
 
 .button-1 span:after {
-	content: '00bb';
+	color: white;
+	content: '>>';
   	position: absolute;
   	opacity: 0;
   	top: 0;
-  	right: -20px;
+  	right: -2rem;
   	transition: all 0.5s;
 }
 
 .button-1:active, .button-1:hover, .button-1:focus {
 	background-color: white;
-	color: #081428;
+	color: #000000;
 	cursor: pointer;
 }
 
 .button-1:hover span {
+	color: #000000;
 	padding-right: 1.75rem;
 }
 
