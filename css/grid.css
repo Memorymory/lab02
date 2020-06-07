@@ -173,6 +173,12 @@ p.tile {
 		-ms-flex-basis: 0;
 		flex-basis: 0;
 	}
+
+	header.mobile {
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+	}
 	
 }
 
