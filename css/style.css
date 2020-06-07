@@ -128,8 +128,8 @@ a.link_with_underline:focus {
 
 .button-1 {
 	font-weight: bold;
-	background-color: #000000;
-	color: white;
+	background-color: white;
+	color: black;
 	border: 2px solid #000000;
 	transition: all 0.5s;
 }
@@ -147,15 +147,10 @@ a.link_with_underline:focus {
   	position: absolute;
   	opacity: 0;
   	top: 0;
-  	right: +2rem;
+  	right: -20px;
   	transition: all 0.5s;
 }
 
-.button-1:active, .button-1:hover, .button-1:focus {
-	background-color: white;
-	color: #000000;
-	cursor: pointer;
-}
 
 .button-1:hover span {
 	padding-right: 1.75rem;
