@@ -16,10 +16,12 @@ section, section.container {
 
 .grid-structure div:nth-of-type(even) {
 	background-color: #ccc;
+	border: 1px solid white;
 }
 
 .grid-structure div:nth-of-type(odd) {
 	background-color: #73777f;
+	border: 1px solid white;
 }
 
 code {
@@ -88,10 +90,10 @@ code.css {
 	Selects all elements with a class name starting with "block" 
 	Reference: 'CSS Selectors' at https://www.w3schools.com/cssref/css_selectors.asp
 */
-[class|="block"]{
+/* [class|="block"]{
 	border: 1px solid white;
 	padding: 1rem;
-}
+} */
 
 .mockup-web {
 	border: 1px solid #081428;
