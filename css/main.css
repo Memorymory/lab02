@@ -86,14 +86,6 @@ code.css {
 .block-500 {
 	min-height: 500px;
 }
-/* 	
-	Selects all elements with a class name starting with "block" 
-	Reference: 'CSS Selectors' at https://www.w3schools.com/cssref/css_selectors.asp
-*/
-/* [class|="block"]{
-	border: 1px solid white;
-	padding: 1rem;
-} */
 
 .mockup-web {
 	border: 1px solid #081428;
