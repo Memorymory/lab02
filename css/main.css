@@ -51,20 +51,20 @@ code.css {
 	padding-top: 0.5rem;
 }
 
+.light-orange {
+	background-color: #ffd8a6;
+}
+
+.orange {
+	backgroud-color: #ea8532;
+}
+
 .light-grey {
 	background-color: #ccc;
 }
 
-.normal-grey {
-	background-color: #73777f;
-}
-
-.dark-grey {
-	background-color: #39404c;
-}
-
 .black {
-	background-color: #081428;
+	background-color: #000;
 }
 
 /* Website grid structure */
