@@ -66,7 +66,7 @@
 	justify-content: space-between;
 }
 
-.center-align-items, .top-nav ul {
+.center-align-items {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
@@ -76,6 +76,12 @@
 	-webkit-flex-wrap: nowrap;
 	-ms-flex-wrap: nowrap;
 	flex-wrap: nowrap;
+}
+
+.top-nav ul {
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
 }
 
 .side-nav ul {
