@@ -173,6 +173,7 @@ p.tile {
 		-ms-flex-basis: 0;
 		flex-basis: 0;
 	}
+	
 }
 
 /* Style guide */
@@ -195,6 +196,7 @@ p.tile {
 		-ms-flex: 0 1 22em;
 		flex: 0 1 22em;
 	}
+	
 }
 
 
