@@ -258,13 +258,12 @@ img.icon {
 
 	.nav-icon {
 		display: block;
-		width: 20%;
 		width: 3.5rem;
 	}
 
 	.h1-mobile {
 		display: block;
-		width: 80%
+		max-width: 80%;
 	}
 }
 
