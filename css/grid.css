@@ -175,9 +175,9 @@ p.tile {
 	}
 
 	header.mobile {
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
+		-webkit-align-items: flex-end;
+		-ms-align-items: flex-end;
+		align-items: flex-end;
 	}
 	
 }
